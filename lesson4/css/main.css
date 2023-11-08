@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    direction:rtl; 
+    align:right;
+
+   
+  }
+  .main{
+     padding: 10%;
+  
+}
+  
+  th, td {
+    text-align: right;
+    direction:rtl;
+    padding: 8px;
+    
+  }
+  
+  thead{
+    
+    background-color:#f2f2f2;
+    border-bottom:solid black;
+  }
+  
+  tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
+    background-color: #f2f2f2;
+  }
