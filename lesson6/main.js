@@ -8,16 +8,6 @@ expandBtn = document.querySelector(".expand");
 timer = document.querySelector(".timer");
 
 
-// تابعی که باید بعد از تغییر اندازه صفحه اجرا شود
-function afterResize() {
-    // اینجا کد‌های خود را بنویسید
-    
-    // if ($(window).width() < 2000) {
-        
-       
-    console.log("تغییر اندازه انجام شد!");
-}
-
 // تعریف تابع برای اجرا هنگام تغییر اندازه صفحه
 function handleResize() {
     if (window.innerWidth < 600) {
